@@ -2,47 +2,47 @@ import Link from "next/link"
 
 const SERVICES = [
   {
-    title: "Terapia individual",
+    title: "Psicoterapia Gestalt",
     description:
-      "Un espacio personal para explorar tus emociones, superar dificultades y desarrollar tu potencial con acompañamiento profesional.",
+      "Trabajo desde el aquí y ahora, fomentando la presencia, la responsabilidad y el contacto genuino contigo mismo y con tu vida.",
     icon: "🌿",
   },
   {
-    title: "Terapia de pareja",
+    title: "Desórdenes alimentarios",
     description:
-      "Mejora la comunicación y la conexión con tu pareja. Trabajamos juntos para fortalecer el vínculo y resolver conflictos.",
+      "Acompañamiento especializado en la relación con la comida, imagen corporal y autoestima. Un espacio sin juicios para sanar desde adentro.",
+    icon: "🍃",
+  },
+  {
+    title: "Regulación emocional",
+    description:
+      "Aprende a reconocer, nombrar y gestionar tus emociones con herramientas concretas de mindfulness y awareness.",
+    icon: "🌊",
+  },
+  {
+    title: "Autoestima y autocuidado",
+    description:
+      "Construimos juntos una relación más amable contigo mismo, fortaleciendo tu bienestar y tu capacidad de cuidarte.",
+    icon: "💛",
+  },
+  {
+    title: "Acompañamiento presencial",
+    description:
+      "Un espacio de escucha, contención y vínculo terapéutico para transitar procesos de transformación desde el amor y la conciencia.",
     icon: "🤝",
-  },
-  {
-    title: "Psicología infantil",
-    description:
-      "Acompañamiento especializado para niños y adolescentes, apoyando su desarrollo emocional y bienestar.",
-    icon: "🌸",
-  },
-  {
-    title: "Orientación vocacional",
-    description:
-      "Descubre tu camino profesional con claridad. Te ayudo a identificar tus fortalezas y a tomar decisiones con confianza.",
-    icon: "🧭",
   },
   {
     title: "Terapia online",
     description:
-      "Accede a consultas desde la comodidad de tu hogar, con la misma calidad y confidencialidad de la consulta presencial.",
+      "Accede a consultas desde donde estés, con la misma calidez, presencia y confidencialidad de la sesión presencial.",
     icon: "💻",
-  },
-  {
-    title: "Manejo del estrés y ansiedad",
-    description:
-      "Aprende herramientas concretas para gestionar el estrés, reducir la ansiedad y recuperar el equilibrio en tu vida diaria.",
-    icon: "🌊",
   },
 ]
 
 const TESTIMONIALS = [
   {
     name: "María L.",
-    text: "La Dra. García me ayudó a entenderme a mí misma de una manera que nunca pensé posible. Su calidez y profesionalismo hacen la diferencia.",
+    text: "Alejandra me ayudó a entenderme a mí misma de una manera que nunca pensé posible. Su calidez y presencia hacen la diferencia.",
   },
   {
     name: "Carlos R.",
@@ -50,7 +50,7 @@ const TESTIMONIALS = [
   },
   {
     name: "Sofía M.",
-    text: "El proceso con Ana fue transformador. Aprendí a manejar mi ansiedad y hoy tengo herramientas que uso todos los días. ¡Gracias!",
+    text: "El proceso con Alejandra fue transformador. Aprendí a reconocer mis emociones y hoy tengo herramientas que uso todos los días. ¡Gracias!",
   },
 ]
 
@@ -125,21 +125,20 @@ export default function Home() {
             </p>
             <h2 className="text-3xl font-bold text-brown-900 mb-5">Alejandra Palomera</h2>
             <p className="text-brown-500 leading-relaxed mb-4">
-              Soy psicóloga con formación y experiencia en el acompañamiento de personas, parejas y
-              familias. Me especializo en brindar un espacio de escucha genuina, sin juicios, donde
-              cada persona pueda encontrar su propio camino de cambio.
+              Acompaño desde la empatía, la presencia y el respeto, para construir juntas y juntos
+              una relación más amable con nosotros mismos y con la vida.
             </p>
             <p className="text-brown-500 leading-relaxed mb-6">
-              Creo en un abordaje personalizado, empático y basado en evidencia. Mi objetivo es que
-              cada persona que llega a mi consultorio se sienta escuchada, respetada y con
-              herramientas reales para transformar su vida.
+              Mi propósito es acompañar procesos de transformación desde el amor, la escucha y la
+              conciencia. Trabajo con enfoque Gestalt, centrado en la persona y con herramientas de
+              mindfulness y regulación emocional.
             </p>
             <ul className="space-y-2 text-sm text-brown-700">
               {[
-                "Licenciada en Psicología",
-                "Especialización en Terapia Cognitivo-Conductual",
-                "Formación en Mindfulness",
-                "Matrícula profesional habilitada",
+                "Psicoterapia Gestalt",
+                "Terapia centrada en la persona",
+                "Intervenciones en salud emocional",
+                "Especialización en trastornos de la conducta alimentaria",
               ].map((item) => (
                 <li key={item} className="flex items-center gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-sage-500 shrink-0" />
