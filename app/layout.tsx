@@ -10,9 +10,9 @@ const geist = Geist({
 })
 
 export const metadata: Metadata = {
-  title: "Dra. Ana García | Psicóloga Clínica",
+  title: "Lic. Alejandra Palomera | Psicóloga",
   description:
-    "Psicóloga clínica especializada en terapia individual, de pareja y psicología infantil. Agenda tu consulta hoy.",
+    "Psicóloga especializada en terapia individual, de pareja y psicología infantil. Agenda tu consulta con Alejandra Palomera.",
 }
 
 export default function RootLayout({

@@ -62,7 +62,7 @@ export default function Home() {
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div>
             <p className="text-terra-600 font-medium mb-3 tracking-wide uppercase text-sm">
-              Psicóloga clínica
+              Psicóloga · Alejandra Palomera
             </p>
             <h1 className="text-4xl md:text-5xl font-bold text-brown-900 leading-tight mb-6">
               Un espacio para escucharte y crecer
@@ -121,13 +121,13 @@ export default function Home() {
           </div>
           <div>
             <p className="text-terra-600 font-medium mb-2 uppercase text-sm tracking-wide">
-              Sobre mí
+              Sobre Alejandra
             </p>
-            <h2 className="text-3xl font-bold text-brown-900 mb-5">Dra. Ana García</h2>
+            <h2 className="text-3xl font-bold text-brown-900 mb-5">Alejandra Palomera</h2>
             <p className="text-brown-500 leading-relaxed mb-4">
-              Soy psicóloga clínica graduada de la Universidad de Buenos Aires, con especialización
-              en Terapia Cognitivo-Conductual y más de 10 años de experiencia acompañando a personas
-              en su proceso de cambio.
+              Soy psicóloga con formación y experiencia en el acompañamiento de personas, parejas y
+              familias. Me especializo en brindar un espacio de escucha genuina, sin juicios, donde
+              cada persona pueda encontrar su propio camino de cambio.
             </p>
             <p className="text-brown-500 leading-relaxed mb-6">
               Creo en un abordaje personalizado, empático y basado en evidencia. Mi objetivo es que
@@ -136,10 +136,10 @@ export default function Home() {
             </p>
             <ul className="space-y-2 text-sm text-brown-700">
               {[
-                "Lic. en Psicología – UBA",
-                "Especialización en TCC – AATCC",
-                "Formación en Mindfulness y ACT",
-                "Miembro del Colegio de Psicólogos de Bs. As.",
+                "Licenciada en Psicología",
+                "Especialización en Terapia Cognitivo-Conductual",
+                "Formación en Mindfulness",
+                "Matrícula profesional habilitada",
               ].map((item) => (
                 <li key={item} className="flex items-center gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-sage-500 shrink-0" />

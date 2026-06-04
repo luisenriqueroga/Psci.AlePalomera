@@ -1,7 +1,7 @@
 import AdminPanel from "@/components/AdminPanel"
 
 export const metadata = {
-  title: "Panel de administración | Dra. Ana García",
+  title: "Panel de administración | Alejandra Palomera",
 }
 
 export default function AdminPage() {

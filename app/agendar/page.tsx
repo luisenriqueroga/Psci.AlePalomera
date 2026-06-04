@@ -1,8 +1,8 @@
 import BookingSection from "@/components/BookingSection"
 
 export const metadata = {
-  title: "Agendar consulta | Dra. Ana García",
-  description: "Agenda tu consulta con la Dra. Ana García. Elige el día y horario que mejor te convenga.",
+  title: "Agendar consulta | Alejandra Palomera",
+  description: "Agenda tu consulta con Alejandra Palomera. Elige el día y horario que mejor te convenga.",
 }
 
 export default function AgendarPage() {
