@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 
 const SERVICES = [
   {
@@ -115,8 +116,14 @@ export default function Home() {
       <section id="sobre-mi" className="py-24 px-6">
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-16 items-center">
           <div className="flex justify-center">
-            <div className="w-80 h-80 rounded-2xl bg-sage-100 flex items-center justify-center text-8xl shadow-sm">
-              👩‍⚕️
+            <div className="w-80 h-80 rounded-2xl overflow-hidden shadow-md">
+              <Image
+                src="/alejandra.jpg"
+                alt="Psicóloga Alejandra Palomera"
+                width={320}
+                height={320}
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
           <div>
