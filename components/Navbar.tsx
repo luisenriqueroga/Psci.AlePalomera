@@ -14,9 +14,6 @@ export default function Navbar() {
           <Link href="/#servicios" className="hover:text-sage-600 transition-colors">
             Servicios
           </Link>
-          <Link href="/#testimonios" className="hover:text-sage-600 transition-colors">
-            Testimonios
-          </Link>
           <Link
             href="/agendar"
             className="bg-terra-500 text-white px-4 py-2 rounded-full hover:bg-terra-600 transition-colors"

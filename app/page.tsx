@@ -40,20 +40,6 @@ const SERVICES = [
   },
 ]
 
-const TESTIMONIALS = [
-  {
-    name: "María L.",
-    text: "Alejandra me ayudó a entenderme a mí misma de una manera que nunca pensé posible. Su calidez y presencia hacen la diferencia.",
-  },
-  {
-    name: "Carlos R.",
-    text: "Fui escéptico al principio, pero después de unos meses de terapia puedo decir que cambió mi vida. La recomiendo con toda confianza.",
-  },
-  {
-    name: "Sofía M.",
-    text: "El proceso con Alejandra fue transformador. Aprendí a reconocer mis emociones y hoy tengo herramientas que uso todos los días. ¡Gracias!",
-  },
-]
 
 export default function Home() {
   return (
@@ -237,35 +223,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Testimonials */}
-      <section id="testimonios" className="py-24 px-6 bg-terra-50">
-        <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-14">
-            <p className="text-terra-600 font-medium mb-2 uppercase text-sm tracking-wide">
-              Testimonios
-            </p>
-            <h2 className="text-3xl font-bold text-brown-900">Lo que dicen mis pacientes</h2>
-          </div>
-          <div className="grid md:grid-cols-3 gap-6">
-            {TESTIMONIALS.map((t) => (
-              <div
-                key={t.name}
-                className="bg-white rounded-2xl p-6 shadow-sm border border-terra-100"
-              >
-                <p className="text-brown-600 leading-relaxed mb-5 text-sm italic">
-                  &ldquo;{t.text}&rdquo;
-                </p>
-                <div className="flex items-center gap-2">
-                  <div className="w-8 h-8 rounded-full bg-sage-200 flex items-center justify-center text-sm font-semibold text-sage-700">
-                    {t.name[0]}
-                  </div>
-                  <p className="text-brown-900 font-medium text-sm">{t.name}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* CTA */}
       <section className="py-24 px-6 bg-sage-600 text-white text-center">
