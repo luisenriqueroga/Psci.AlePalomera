@@ -13,7 +13,7 @@ export function middleware(req: NextRequest) {
   const credentials = Buffer.from(authHeader.slice(6), "base64").toString("utf-8")
   const password = credentials.split(":").slice(1).join(":")
 
-  if (password !== process.env.ADMIN_PASSWORD) {
+  if (password !== process.env.CLAVE_ADMIN) {
     return new NextResponse(null, {
       status: 401,
       headers: { "WWW-Authenticate": 'Basic realm="Admin"' },
