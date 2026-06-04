@@ -2,34 +2,34 @@ import Link from "next/link"
 
 const SERVICES = [
   {
-    title: "Psicoterapia Gestalt",
+    title: "Psicoterapia individual",
     description:
-      "Trabajo desde el aquí y ahora, fomentando la presencia, la responsabilidad y el contacto genuino contigo mismo y con tu vida.",
+      "Acompañamiento terapéutico con enfoque humanista y Gestalt. Un espacio de escucha, contención y vínculo para tu proceso de transformación.",
     icon: "🌿",
   },
   {
-    title: "Desórdenes alimentarios",
+    title: "Psicoeducación familiar",
     description:
-      "Acompañamiento especializado en la relación con la comida, imagen corporal y autoestima. Un espacio sin juicios para sanar desde adentro.",
-    icon: "🍃",
+      "Talleres y acompañamiento para papás y mamás. Incluye duelo al criar niñeces con discapacidad, neurodivergencias o dificultades de aprendizaje.",
+    icon: "👨‍👩‍👧",
   },
   {
-    title: "Regulación emocional",
+    title: "Nutrición / Psiconutrición",
     description:
-      "Aprende a reconocer, nombrar y gestionar tus emociones con herramientas concretas de mindfulness y awareness.",
-    icon: "🌊",
+      "Educación nutricional con enfoque educativo: plan de alimentación personalizado, composición corporal y entendimiento de tu relación con los alimentos.",
+    icon: "🥗",
   },
   {
-    title: "Autoestima y autocuidado",
+    title: "Cuidado del cuidador",
     description:
-      "Construimos juntos una relación más amable contigo mismo, fortaleciendo tu bienestar y tu capacidad de cuidarte.",
+      "Un espacio dedicado a quienes cuidan de otros. Trabajamos el autocuidado, los límites y el bienestar emocional de quien acompaña.",
     icon: "💛",
   },
   {
-    title: "Acompañamiento presencial",
+    title: "Talleres y charlas",
     description:
-      "Un espacio de escucha, contención y vínculo terapéutico para transitar procesos de transformación desde el amor y la conciencia.",
-    icon: "🤝",
+      "Talleres psicoeducativos para centros educativos, docentes y organizaciones. Temas de salud emocional, crianza y bienestar.",
+    icon: "🎤",
   },
   {
     title: "Terapia online",
