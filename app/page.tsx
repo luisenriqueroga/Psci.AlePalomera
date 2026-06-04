@@ -88,8 +88,14 @@ export default function Home() {
             </div>
           </div>
           <div className="flex justify-center">
-            <div className="w-72 h-72 rounded-full bg-sage-100 flex items-center justify-center text-8xl shadow-inner">
-              🌿
+            <div className="w-72 h-72 rounded-full overflow-hidden shadow-inner">
+              <Image
+                src="/ale-articulo.jpg"
+                alt="Alejandra Palomera con la revista Figura a Fondo"
+                width={288}
+                height={288}
+                className="w-full h-full object-cover object-top"
+              />
             </div>
           </div>
         </div>
@@ -140,7 +146,7 @@ export default function Home() {
               conciencia. Trabajo con enfoque Gestalt, centrado en la persona y con herramientas de
               mindfulness y regulación emocional.
             </p>
-            <ul className="space-y-2 text-sm text-brown-700">
+            <ul className="space-y-2 text-sm text-brown-700 mb-6">
               {[
                 "Psicoterapia Gestalt",
                 "Terapia centrada en la persona",
@@ -152,6 +158,17 @@ export default function Home() {
                   {item}
                 </li>
               ))}
+            </ul>
+            <p className="text-terra-600 font-medium uppercase text-xs tracking-wide mb-2">Publicaciones</p>
+            <ul className="space-y-3 text-sm text-brown-600">
+              <li className="border-l-2 border-sage-300 pl-3">
+                <p className="font-medium text-brown-800">"Los matices en las pérdidas y duelos"</p>
+                <p className="text-xs text-brown-400">Revista Figura a Fondo · Edición No. 55</p>
+              </li>
+              <li className="border-l-2 border-sage-300 pl-3">
+                <p className="font-medium text-brown-800">"Alimentar el contacto: La experiencia gestáltica y nutricional en la hiperselectividad de las niñeces con neurodivergencia"</p>
+                <p className="text-xs text-brown-400">Revista Figura a Fondo · Edición No. 59</p>
+              </li>
             </ul>
           </div>
         </div>
